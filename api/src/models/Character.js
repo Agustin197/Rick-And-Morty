@@ -4,6 +4,12 @@ const { DataTypes } = require("sequelize");
 module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define("character", {
-
+    id: {
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+    },
   });
 };
+
+
+//cambio
