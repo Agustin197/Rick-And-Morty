@@ -12,4 +12,4 @@ module.exports = (sequelize) => {
 };
 
 
-//cambios
+//cambios  2
